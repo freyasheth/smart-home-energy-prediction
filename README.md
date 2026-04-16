@@ -87,7 +87,7 @@ Deep learning models are often "black boxes." To ensure transparency, we integra
 
 ---
 
-## 📈 Training Configuration & Metrics
+## Training Configuration & Metrics
 
 * **Optimizer:** Adam
 * **Loss Function:** Mean Squared Error (MSE)
@@ -103,7 +103,7 @@ All models are evaluated on the inverse-transformed predictions to reflect actua
 
 ---
 
-## 📁 Repository Artifacts & Saved Models
+## Repository Artifacts & Saved Models
 
 Running the pipelines will generate the following deployment-ready artifacts:
 * `saved_models/Paper_Baseline_CNN_LSTM.keras`
@@ -116,7 +116,7 @@ Running the pipelines will generate the following deployment-ready artifacts:
 
 ---
 
-## 🚀 Execution Instructions (Google Colab)
+## Execution Instructions (Google Colab)
 
 1. **Environment Setup:** Ensure you are running a Python 3 environment. Install the required dependencies:
    ```bash
