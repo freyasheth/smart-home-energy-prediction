@@ -125,4 +125,3 @@ Running the pipelines will generate the following deployment-ready artifacts:
 2. **Dataset Access:** The Kaggle notebook utilizes `kagglehub.dataset_download("mexwell/smart-home-energy-consumption")` to dynamically pull the data. Ensure your Colab environment has internet access enabled.
 3. **Run Sequentially:** Execute the cells in order. Note that the temporal sequence generation requires significant RAM depending on the lookback window.
 4. **SHAP Computation:** *Note: The SHAP KernelExplainer is computationally expensive.* If testing the notebook, keep the `bg_idx` (background size) and `X_explain_flat` sizes small (e.g., 20-50 samples) to prevent runtime timeouts.
-```
