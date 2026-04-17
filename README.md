@@ -84,6 +84,11 @@ Deep learning models are often "black boxes." To ensure transparency, we integra
 2. **Prediction Wrapper:** A custom function reshapes the flattened data back to 3D on the fly during model inference.
 3. **Background Sampling:** A representative background dataset (50 samples) is used to establish baseline expectations, drastically speeding up computation.
 4. **Summary Plots:** Generates visualizations showing the impact of specific features at specific timesteps (e.g., `Outdoor_Temp_t18`) on the final energy prediction.
+<br>
+<img width="718" height="374" alt="image" src="https://github.com/user-attachments/assets/0a42a28f-4b08-4e9b-a79c-11a695785dec" /><br>
+<img width="1189" height="390" alt="image" src="https://github.com/user-attachments/assets/126ed2f8-7ee4-4a92-bd77-b91932ff4bbb" /><br>
+<img width="952" height="489" alt="image" src="https://github.com/user-attachments/assets/18435859-afd6-4df3-aeb8-f1b4441c1e74" /><br>
+<img width="961" height="489" alt="image" src="https://github.com/user-attachments/assets/4421023f-5fb3-4dd4-b93b-bb5518262ebb" /><br>
 
 ---
 
@@ -136,13 +141,10 @@ Running the pipelines will generate the following deployment-ready artifacts:
 4. **SHAP Computation:** *Note: The SHAP KernelExplainer is computationally expensive.* If testing the notebook, keep the `bg_idx` (background size) and `X_explain_flat` sizes small (e.g., 20-50 samples) to prevent runtime timeouts.
 
 ## Results
-<img width="926" height="523" alt="image" src="https://github.com/user-attachments/assets/573e31a5-ae34-42c7-8652-983f3869605f" />
-<img width="1143" height="470" alt="image" src="https://github.com/user-attachments/assets/0d4259bf-2c01-4c51-a73c-35356d769a58" />
-<img width="704" height="393" alt="image" src="https://github.com/user-attachments/assets/0f7aed66-17b5-4a34-9914-4b7a91ac932d" />
-<img width="718" height="374" alt="image" src="https://github.com/user-attachments/assets/0a42a28f-4b08-4e9b-a79c-11a695785dec" />
-<img width="1189" height="390" alt="image" src="https://github.com/user-attachments/assets/126ed2f8-7ee4-4a92-bd77-b91932ff4bbb" />
-<img width="952" height="489" alt="image" src="https://github.com/user-attachments/assets/18435859-afd6-4df3-aeb8-f1b4441c1e74" />
-<img width="961" height="489" alt="image" src="https://github.com/user-attachments/assets/4421023f-5fb3-4dd4-b93b-bb5518262ebb" />
+<img width="927" height="464" alt="image" src="https://github.com/user-attachments/assets/144cc353-affb-42ee-9f09-278db35ae5af" /><br>
+<img width="1143" height="470" alt="image" src="https://github.com/user-attachments/assets/0d4259bf-2c01-4c51-a73c-35356d769a58" /><br>
+<img width="704" height="393" alt="image" src="https://github.com/user-attachments/assets/0f7aed66-17b5-4a34-9914-4b7a91ac932d" /><br>
+
 
 
 
