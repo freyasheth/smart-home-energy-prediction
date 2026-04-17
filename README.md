@@ -101,6 +101,15 @@ All models are evaluated on the inverse-transformed predictions to reflect actua
 * Root Mean Squared Error (RMSE)
 * Mean Absolute Error (MAE)
 
+## Final Model Comparison Table
+
+| Architecture | MSE | RMSE | MAE | MAPE (%) | R-Squared | Train Time (s) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Parallel_CNN_LSTM** | 0.237833 | 0.487681 | 0.338824 | 45.187862 | 0.554238 | 130.342547 |
+| **CNN_GRU** | 0.239686 | 0.489577 | 0.338875 | 43.701388 | 0.550765 | 292.808396 |
+| **Paper_Baseline_CNN_LSTM** | 0.241592 | 0.491520 | 0.338260 | 45.521084 | 0.547191 | 409.238405 |
+| **Attention_LSTM** | 0.243688 | 0.493648 | 0.340515 | 44.096460 | 0.543264 | 331.092268 |
+
 ---
 
 ## Repository Artifacts & Saved Models
